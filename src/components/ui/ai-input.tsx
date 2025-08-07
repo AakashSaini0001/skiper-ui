@@ -99,6 +99,9 @@ export default function AiInput() {
       setImagePreview(URL.createObjectURL(file))
     }
   }
+    // const handelChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    //   console.log(e.target.value);
+    // }
 
   const handleSubmit = () => {
     setValue("")
